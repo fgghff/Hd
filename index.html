@@ -1,35 +1,108 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>صفحة تجربة HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>الطبيب الذكي - ابتكار طبي عراقي مستقل</title>
     <style>
         body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9f9f9;
+            color: #222;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
         }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            margin-top: 20px;
-            cursor: pointer;
+        header {
+            background: linear-gradient(to left, #007B8A, #00B4D8);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #007B8A;
+            border-right: 5px solid #00B4D8;
+            padding-right: 10px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 12px;
+            margin: 20px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #eee;
+            margin-top: 60px;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>الطبيب الذكي</h1>
+        <p>ابتكار طبي عراقي مستقل لنظام تشخيص ذكي باستخدام تقنيات الذكاء الاصطناعي والواقع المعزز</p>
+    </header>
 
-    <h1>مرحبًا بك في صفحة التجربة</h1>
-    <button onclick="changeColor()">غير لون الخلفية</button>
+    <section>
+        <h2>مقدمة علمية</h2>
+        <p>في ظل التقدم السريع في تقنيات الذكاء الاصطناعي والأجهزة القابلة للارتداء، أصبح من الممكن دمج هذه الأدوات لتطوير حلول طبية مبتكرة. "الطبيب الذكي" هو نظام متكامل يعمل على تقديم تشخيص فوري ودقيق من خلال نظارة وساعة ذكية متصلة بنظام تحليلي متطور، وهو ابتكار عراقي مستقل من شخص واحد يسعى لتطوير الرعاية الصحية في بلده.</p>
+        <img src="https://www.publicdomainpictures.net/pictures/320000/velka/smart-glasses-concept.jpg" alt="نموذج تخيلي للنظارة الطبية" />
+    </section>
 
-    <script>
-        function changeColor() {
-            let colors = ["#ffcccb", "#add8e6", "#90ee90", "#ffffe0", "#d8bfd8"];
-            let randomColor = colors[Math.floor(Math.random() * colors.length)];
-            document.body.style.backgroundColor = randomColor;
-        }
-    </script>
+    <section>
+        <h2>فكرة الابتكار</h2>
+        <p>يتكون نظام "الطبيب الذكي" من نظارة طبية ذكية مزودة بشاشة عرض شفافة وكاميرات، بالإضافة إلى ساعة طبية تحتوي على حساسات دقيقة تلتقط المؤشرات الحيوية للمريض. يتم ربط هذه الأجهزة بنظام ذكاء اصطناعي يقوم بتحليل البيانات وعرض نتائج فورية عبر واجهة الواقع المعزز.</p>
+        <img src="https://cdn.pixabay.com/photo/2020/02/28/09/20/medical-4880741_1280.jpg" alt="البيانات الطبية الذكية" />
+    </section>
 
+    <section>
+        <h2>المكونات التقنية للنظام</h2>
+        <ul>
+            <li><strong>النظارة الذكية:</strong> مزودة بشاشة AR، وكاميرا حرارية، ومستشعرات بصرية لعرض الهيكل الداخلي وتفاعلات الجسم.</li>
+            <li><strong>الساعة الطبية:</strong> تتضمن أجهزة استشعار لقياس ECG، SpO2، الضغط، النبض، ودرجة الحرارة.</li>
+            <li><strong>نظام الذكاء الاصطناعي:</strong> يعالج البيانات لحظيًا، يقارنها بقاعدة بيانات طبية ضخمة، ويقترح التشخيص والعلاج المناسب.</li>
+            <li><strong>الربط اللاسلكي:</strong> اتصال Bluetooth/Wi-Fi بين الأجهزة لضمان التواصل اللحظي والدقة.</li>
+        </ul>
+        <img src="https://cdn.pixabay.com/photo/2019/03/10/18/24/ai-4044121_1280.jpg" alt="ذكاء اصطناعي طبي" />
+    </section>
+
+    <section>
+        <h2>آلية العمل</h2>
+        <p>عند ارتداء الساعة، تبدأ بجمع البيانات الحيوية وترسلها إلى النظارة. يقوم الذكاء الاصطناعي بتحليل الإشارات الواردة ويُظهر عبر النظارة معلومات مثل نبض القلب، الضغط، حالة الجهاز العصبي، التنفس، وغيرها. عند اكتشاف خلل أو حالة حرجة، يتم عرض تنبيه صوتي ومرئي فوري مع تعليمات طبية.</p>
+        <img src="https://cdn.pixabay.com/photo/2017/12/28/20/03/doctor-3043501_1280.jpg" alt="تشخيص فوري باستخدام الذكاء الاصطناعي" />
+    </section>
+
+    <section>
+        <h2>الفوائد والميزات</h2>
+        <ul>
+            <li>توفير تشخيص سريع وموثوق في الأماكن الميدانية والطوارئ.</li>
+            <li>تقليل الاعتماد على الأطباء في المراحل الأولى للتشخيص.</li>
+            <li>دعم المناطق النائية التي تفتقر إلى الكوادر الطبية المتخصصة.</li>
+            <li>التكامل مع أنظمة الطوارئ والإنقاذ لتقليل زمن الاستجابة.</li>
+            <li>عرض ثلاثي الأبعاد لجسم المريض باستخدام تقنيات AR.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>الرؤية المستقبلية</h2>
+        <p>يهدف المشروع إلى تطوير منصة متكاملة لتقديم الرعاية الصحية المحمولة، تتوسع لاحقًا لتشمل تحليل البيانات الجينية والتكامل مع ملفات المرضى الإلكترونية. كما يمكن تطوير النماذج لتعمل مع الواقع الافتراضي VR وتُستخدم في التدريب الطبي.</p>
+    </section>
+
+    <footer>
+        &copy; 2025 الطبيب الذكي | ابتكار عراقي مستقل من شخص واحد
+    </footer>
 </body>
-</html>
+    </html>
